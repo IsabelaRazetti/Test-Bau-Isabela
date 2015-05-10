@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,EAAE;EACE,SAAS,EAAE,IAAI",
+"mappings": "AAAA,EAAE;EACE,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,MAAM",
 "sources": ["../scss/base/_typography.scss"],
 "names": [],
 "file": "styles.css"
