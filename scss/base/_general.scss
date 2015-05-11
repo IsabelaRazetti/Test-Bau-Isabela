@@ -19,7 +19,6 @@
 .main-container{
     width: 1024px;
     margin: 0 auto;
-    background-color: black;
 }
 
 .imagen-inicial{
@@ -28,12 +27,7 @@
     height: 380px;
     margin: 0 auto;
 }
-h1{
-  position: relative;
-  top: 50%;
-  left: 10%;
 
-}
 .container-parrafo{
   width: 100%;
   text-align: center;
@@ -41,7 +35,25 @@ h1{
 
 .imagen-hotels{
   float: right;
-  width: 20%;
+  width: 10%;
+  padding-right: 20px;
 }
 
-
+.formulario{
+    background-color: rgba(0,0,0, .6);
+    background-clip: border-box;
+    border-style: solid 2px white;
+    border-width: 6px;
+    position: absolute;
+    top: 70%;
+    width: 70%;
+}
+input{
+  padding: 10px;
+  width: 70%;
+  position: absolute;
+  left: 25%;
+}
+.container-imagenes{
+  width: 100%;
+}

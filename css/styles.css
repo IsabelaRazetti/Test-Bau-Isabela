@@ -4,31 +4,28 @@ h1 {
   font-weight: 400;
   font-style: bold;
   margin: 0;
-  color: white; }
+  color: white;
+  position: relative;
+  top: 40%;
+  left: 10%; }
+
+.list {
+  font-family: Lato;
+  font-weight: normal;
+  color: black; }
 
 h2 {
-  margin: 0;
-  padding: 0; }
+  font-family: "Lato";
+  font-size: 1.125rem; }
 
-h3 {
-  margin: 0;
-  padding: 0; }
+p {
+  font-family: Lato;
+  font-size: 0.75rem;
+  text-align: center; }
 
 .uppercase {
   text-transform: uppercase; }
 
-/*
-.visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-}
-*/
 /*
 a {
     text-decoration: none;
@@ -56,8 +53,7 @@ a:link, a:visited, a:hover, a:active{
 
 .main-container {
   width: 1024px;
-  margin: 0 auto;
-  background-color: black; }
+  margin: 0 auto; }
 
 .imagen-inicial {
   background-image: url(../imagenes/heading.jpg);
@@ -65,18 +61,32 @@ a:link, a:visited, a:hover, a:active{
   height: 380px;
   margin: 0 auto; }
 
-h1 {
-  position: relative;
-  top: 50%;
-  left: 10%; }
-
 .container-parrafo {
   width: 100%;
   text-align: center; }
 
 .imagen-hotels {
   float: right;
-  width: 20%; }
+  width: 10%;
+  padding-right: 20px; }
+
+.formulario {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-clip: border-box;
+  border-style: solid 2px white;
+  border-width: 6px;
+  position: absolute;
+  top: 70%;
+  width: 70%; }
+
+input {
+  padding: 10px;
+  width: 70%;
+  position: absolute;
+  left: 25%; }
+
+.container-imagenes {
+  width: 100%; }
 
 /*
 .general-button{
@@ -112,20 +122,22 @@ contenedores anuncios
     margin-right: 6px;
 }
 */
-/*.container-menu{
+.container-menu {
+  width: 1024px;
+  margin: 0 auto; }
 
-    margin: 0 auto;
-}
-.logo{
-    width: 10%;
-}
-li{
-    list-style: none;
-    display: inline-block;
-    float: right;
-    padding: 10px;
-    margin: 0 auto;
-}
-*/
+.logo {
+  width: 10%; }
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  float: right;
+  padding-right: 10px;
+  margin: 0 auto;
+  vertical-align: center; }
+
+header {
+  height: 10%; }
 
 /*# sourceMappingURL=styles.css.map */

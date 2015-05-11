@@ -1,15 +1,22 @@
-/*.container-menu{
-
+.container-menu{
+    width: 1024px;
     margin: 0 auto;
 }
 .logo{
     width: 10%;
 }
-li{
+
+nav ul li{
     list-style: none;
     display: inline-block;
     float: right;
-    padding: 10px;
+    padding-right: 10px;
     margin: 0 auto;
+    vertical-align: center;
+
 }
-*/
+
+header{
+    height: 10%;;
+}
+

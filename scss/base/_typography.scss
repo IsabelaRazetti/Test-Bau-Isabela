@@ -5,32 +5,25 @@ h1 {
      font-style: bold;
      margin:0;
      color: white;
-
-
+    position: relative;
+    top: 40%;
+    left: 10%;
 }
-
+.list{
+    font-family: Lato;
+    font-weight: normal;
+    color: black;
+}
 h2 {
-    margin: 0;
-    padding: 0;
+     font-family: "Lato";
+     font-size: 1.125rem;
 }
-
-h3 {
-    margin: 0;
-    padding: 0;
+p{
+    font-family: Lato;
+    font-size: 0.75rem;
+    text-align: center;
 }
 
 .uppercase {
     text-transform: uppercase;
 }
-/*
-.visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-}
-*/
