@@ -1,0 +1,47 @@
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.main-container{
+    width: 1024px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.imagen-inicial{
+    background-image: url(../imagenes/heading.jpg);
+    background-size: cover;
+    height: 380px;
+    margin: 0 auto;
+}
+h1{
+  position: relative;
+  top: 50%;
+  left: 10%;
+
+}
+.container-parrafo{
+  width: 100%;
+  text-align: center;
+}
+
+.imagen-hotels{
+  float: right;
+  width: 20%;
+}
+
+
