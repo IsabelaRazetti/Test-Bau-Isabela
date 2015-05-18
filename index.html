@@ -9,30 +9,35 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <div class="container-menu">
-            <img class="logo" src="imagenes/logo.png">
-            <nav>
-                <ul>
-
-                 <li class="uppercase list"><a href="#">home</a></li>
-                 <li class="uppercase list"><a href="#">destinations</a></li>
-                 <li class="uppercase list"><a href="#">bookings</a></li>
-
-             </ul>
-         </nav>
-     </div>
- </header>
+<!-- Añado clearfix al header y utilizo el div para el contenedor del logo-->
+<header class="cf">
+<div class="container-logo-slogan">
+    <div class="container-logo">
+        <img src="imagenes/logo.png">
+    </div>
+<!-- Añado div al texto del header-->
+    <div class="container-texto-header"><h2>Awesome travel agency - We take you everywhere</h2>
+    </div>
+</div>
+<!-- Añado clases al nav y al ul para estilarlos y flotarlos correctamente-->
+    <nav class="container-nav">
+        <ul class="texto-nav">
+           <li class="uppercase list"><a href="#">home</a></li>
+           <li class="uppercase list"><a href="#">destinations</a></li>
+           <li class="uppercase list"><a href="#">bookings</a></li>
+       </ul>
+   </nav>
+</div>
+</header>
 
  <article>
-
     <div class="imagen-inicial cf">
         <h1 class="uppercase">we travel everywhere and our prices rock what else?</h1>
-
+<!-- Mejora de formato de formulario-->
     <div class="formulario">
         <form>
             <input type="text" placeholder="Find your super travel">
-            <a class="enviar" type="submit" value="BUSCAR"></a>
+            <input class="enviar" type="submit" value="BUSCAR">
         </form>
     </div>
      </div>

@@ -16,7 +16,7 @@ h1 {
 
 h2 {
   font-family: "Lato";
-  font-size: 1.125rem; }
+  font-size: 1rem; }
 
 p {
   font-family: Lato;
@@ -126,13 +126,22 @@ contenedores anuncios
   width: 1024px;
   margin: 0 auto; }
 
-.logo {
-  width: 10%; }
+/*Corrijo ubicacion de logo y reemplazo la clase x el img para ahorrar clases*/
+.container-logo img {
+  width: 8%;
+  float: left; }
 
-nav ul li {
-  list-style: none;
+/*Añado container de tipografía y estilo*/
+.container-texto-header {
+  padding: 20px 0px 0px 15px; }
+
+/*Añado container de nav y estilo*/
+.container-nav {
+  float: right; }
+
+.container-nav li {
   display: inline-block;
-  float: right;
+  list-style: none;
   padding-right: 10px;
   margin: 0 auto;
   vertical-align: center; }
